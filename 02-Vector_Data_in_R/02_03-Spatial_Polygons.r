@@ -1,7 +1,5 @@
 # Data entry
- lon <- c(-116.8, -114.2, -112.9, -111.9, -114.2, -115.4, -117.7)
- lat <- c(41.3, 42.9, 42.4, 39.8, 37.6, 38.3, 37.6)
- lonlat <- cbind(lon, lat)
+source("final/helpers/sample_data.r")
  # Now create a SpatialPolygons object
  pols <- spPolygons(lonlat, crs=crdref)
  pols
